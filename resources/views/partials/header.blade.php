@@ -48,9 +48,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
           aria-expanded="false"><i class="fa fa-heartbeat" aria-hidden="true"></i> Pet Health <span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <li><i class="fa fa-paw" aria-hidden="true"><a href="{{route('consults.index')}}">Consultations</a></i></li>
+              <li><i class="fa fa-paw" aria-hidden="true"></i><a href="{{route('consults.index')}}">Consultations</a></li>
               <li role="separator" class="divider"></li>
-              <li><i class="fa fa-exclamation-circle" aria-hidden="true"><a href="{{ route('diseases.index') }}">Diseases</a></i></li>
+              <li><i class="fa fa-exclamation-circle" aria-hidden="true"></i><a href="{{ route('diseases.index') }}">Diseases</a></li>
           </ul>
         </li>
 

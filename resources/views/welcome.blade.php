@@ -15,11 +15,11 @@
             text-align: center;
         }
 
-        footer {
+        .footer {
   text-align: center;
-  padding: 3px;
-  background-color: "ffffff;";
-  color: white;
+  padding: 15px 10px;
+  background-color: black;
+  width: 100%;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -38,8 +38,8 @@
         </p> -->
 
 
-        <footer>
-        <h4 style="color:black">Acme Pet Clinic All Rights Reserved @2022</h4>
+        <footer class="footer">
+        <h4 style="color:white">Acme Pet Clinic All Rights Reserved @2022</h4>
         </footer>
     </body>
     
